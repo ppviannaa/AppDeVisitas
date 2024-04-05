@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7afd9b7693d50210d14af1d97bba102c" label="Cadastro Visitantes" max_length="40" name="x_1329985_vst_cadastro_visitantes" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="E-mail" max_length="120" name="e_mail" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Identificador" max_length="40" name="identificador" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nome" max_length="120" name="nome" type="string"/>
+    </element>
+</database>
