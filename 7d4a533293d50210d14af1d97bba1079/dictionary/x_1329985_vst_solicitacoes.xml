@@ -1,3 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="6cbe1bb693d50210d14af1d97bba1025" extends="task" label="Solicitações" max_length="40" name="x_1329985_vst_solicitacoes" type="collection"/>
+    <element audit="true" db_object_id="6cbe1bb693d50210d14af1d97bba1025" extends="task" label="Solicitações" max_length="40" name="x_1329985_vst_solicitacoes" type="collection">
+        <element attributes="encode_utf8=false" label="Localidade" max_length="32" name="localidade" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Situação" max_length="40" name="situacao" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Novo" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Aguardando Aprovação" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Autorizado" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Expirado/Cancelado" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Concluido" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Data de Saida" max_length="40" name="u_end_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Data de Entrada" max_length="40" name="u_start_date" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Visitante" max_length="32" name="visitante" reference="x_1329985_vst_cadastro_visitantes" type="reference"/>
+    </element>
 </database>
