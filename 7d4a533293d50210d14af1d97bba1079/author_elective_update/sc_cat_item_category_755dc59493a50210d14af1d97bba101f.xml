@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Solicitação de Visitas">357b011493a50210d14af1d97bba1059</sc_cat_item>
+        <sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-09 18:18:15</sys_created_on>
+        <sys_id>755dc59493a50210d14af1d97bba101f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office.Solicitação de Visitas</sys_name>
+        <sys_package display_value="Visitas" source="x_1329985_vst">7d4a533293d50210d14af1d97bba1079</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">7d4a533293d50210d14af1d97bba1079</sys_scope>
+        <sys_update_name>sc_cat_item_category_755dc59493a50210d14af1d97bba101f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-09 18:18:15</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Visitas">7d4a533293d50210d14af1d97bba1079</application>
+        <file_path/>
+        <instance_id>89da2321dbd6b5dcf697684e139619b1</instance_id>
+        <instance_name>dev203831</instance_name>
+        <name>sc_cat_item_category_755dc59493a50210d14af1d97bba101f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Solicitação de Visitas">357b011493a50210d14af1d97bba1059</sc_cat_item><sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-09 18:18:15</sys_created_on><sys_id>755dc59493a50210d14af1d97bba101f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Office.Solicitação de Visitas</sys_name><sys_package display_value="Visitas" source="x_1329985_vst">7d4a533293d50210d14af1d97bba1079</sys_package><sys_policy/><sys_scope display_value="Visitas">7d4a533293d50210d14af1d97bba1079</sys_scope><sys_update_name>sc_cat_item_category_755dc59493a50210d14af1d97bba101f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-09 18:18:15</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-2091484792</payload_hash>
+        <record_name>Office.Solicitação de Visitas</record_name>
+        <reverted_from/>
+        <source>2b53a7ba93d50210d14af1d97bba10c9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-09 18:18:15</sys_created_on>
+        <sys_id>f55dc59493a50210d14af1d97bba1023</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ec41503320000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-09 18:18:15</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>795dc5943ea50210a61ef98f8f43d022</update_guid>
+        <update_guid_history>795dc5943ea50210a61ef98f8f43d022:-2091484792</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Office.Solicitação de Visitas">f5ad4d9493a50210d14af1d97bba10b9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-09 18:19:37</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>35e2d7a7e06a4f83a52b8afabec52f11</sys_id>
+        <sys_metadata>755dc59493a50210d14af1d97bba101f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office.Solicitação de Visitas</sys_name>
+        <sys_package display_value="Visitas" source="x_1329985_vst">7d4a533293d50210d14af1d97bba1079</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">7d4a533293d50210d14af1d97bba1079</sys_scope>
+        <sys_scope_delete display_value="">192c86bfc1e14f448ed44dbdc6f97464</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_755dc59493a50210d14af1d97bba101f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_755dc59493a50210d14af1d97bba101f">f55dc59493a50210d14af1d97bba1023</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-09 18:19:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

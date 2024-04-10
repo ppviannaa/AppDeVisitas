@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Solicitação de Visitas">357b011493a50210d14af1d97bba1059</sc_cat_item>
+        <sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-09 18:22:56</sys_created_on>
+        <sys_id>e66ecdd493a50210d14af1d97bba108d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office.Solicitação de Visitas</sys_name>
+        <sys_package display_value="Visitas" source="x_1329985_vst">7d4a533293d50210d14af1d97bba1079</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">7d4a533293d50210d14af1d97bba1079</sys_scope>
+        <sys_update_name>sc_cat_item_category_e66ecdd493a50210d14af1d97bba108d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-09 18:22:56</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

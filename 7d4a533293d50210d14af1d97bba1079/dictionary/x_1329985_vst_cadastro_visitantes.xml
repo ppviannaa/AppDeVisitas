@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="7afd9b7693d50210d14af1d97bba102c" label="Cadastro Visitantes" max_length="40" name="x_1329985_vst_cadastro_visitantes" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Bairro" max_length="80" name="bairro" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cep" max_length="40" name="cep" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cidade" max_length="60" name="cidade" reference="core_company" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Complemento" max_length="120" name="complemento" type="string"/>
+        <element attributes="encode_utf8=false" label="Empresa" max_length="32" name="empresa" reference="core_company" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Endereço" max_length="200" name="endereco" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="E-mail" max_length="120" name="e_mail" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Identificador" max_length="40" name="identificador" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Identificador" max_length="40" name="identificador" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Nome" max_length="120" name="nome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Numero" max_length="40" name="numero" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Telefone" max_length="40" name="telefone" type="string"/>
+        <index name="index">
+            <element name="empresa"/>
+        </index>
     </element>
 </database>
