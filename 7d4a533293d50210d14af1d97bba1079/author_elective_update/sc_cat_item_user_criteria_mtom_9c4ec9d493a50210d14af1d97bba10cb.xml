@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Solicitação de Visitas">357b011493a50210d14af1d97bba1059</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-09 18:22:14</sys_created_on>
+        <sys_id>9c4ec9d493a50210d14af1d97bba10cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Solicitação de Visitas.Any User</sys_name>
+        <sys_package display_value="Visitas" source="x_1329985_vst">7d4a533293d50210d14af1d97bba1079</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">7d4a533293d50210d14af1d97bba1079</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_9c4ec9d493a50210d14af1d97bba10cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-09 18:22:14</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Visitas">7d4a533293d50210d14af1d97bba1079</application>
+        <file_path/>
+        <instance_id>89da2321dbd6b5dcf697684e139619b1</instance_id>
+        <instance_name>dev203831</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_9c4ec9d493a50210d14af1d97bba10cb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Solicitação de Visitas">357b011493a50210d14af1d97bba1059</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-09 18:22:14</sys_created_on><sys_id>9c4ec9d493a50210d14af1d97bba10cb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Solicitação de Visitas.Any User</sys_name><sys_package display_value="Visitas" source="x_1329985_vst">7d4a533293d50210d14af1d97bba1079</sys_package><sys_policy/><sys_scope display_value="Visitas">7d4a533293d50210d14af1d97bba1079</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_9c4ec9d493a50210d14af1d97bba10cb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-09 18:22:14</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>-1819555404</payload_hash>
+        <record_name>Solicitação de Visitas.Any User</record_name>
+        <reverted_from/>
+        <source>2b53a7ba93d50210d14af1d97bba10c9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-09 18:22:14</sys_created_on>
+        <sys_id>144ec9d493a50210d14af1d97bba10d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ec418ab3e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-09 18:22:14</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>944ec9d455a50210aff1c1f2e34a61cf</update_guid>
+        <update_guid_history>944ec9d455a50210aff1c1f2e34a61cf:-1819555404</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Solicitação de Visitas.Any User">e26ecdd493a50210d14af1d97bba109f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-09 18:22:56</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>531009e73ad94d089bb7eb1b8f196c90</sys_id>
+        <sys_metadata>9c4ec9d493a50210d14af1d97bba10cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Solicitação de Visitas.Any User</sys_name>
+        <sys_package display_value="Visitas" source="x_1329985_vst">7d4a533293d50210d14af1d97bba1079</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">7d4a533293d50210d14af1d97bba1079</sys_scope>
+        <sys_scope_delete display_value="">192c86bfc1e14f448ed44dbdc6f97464</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_9c4ec9d493a50210d14af1d97bba10cb</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_9c4ec9d493a50210d14af1d97bba10cb">144ec9d493a50210d14af1d97bba10d0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-09 18:22:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
