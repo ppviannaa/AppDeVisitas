@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Cadastro de Visitante">d5df7d2493e10210d14af1d97bba1086</sc_cat_item>
+        <sc_category display_value="Departmental Services">95fc11615f1211001c9b2572f2b477c6</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 17:02:55</sys_created_on>
+        <sys_id>8cb5422c93e10210d14af1d97bba102b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Departmental Services.Cadastro de Visitante</sys_name>
+        <sys_package display_value="Visitas" source="x_1329985_vst">7d4a533293d50210d14af1d97bba1079</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">7d4a533293d50210d14af1d97bba1079</sys_scope>
+        <sys_update_name>sc_cat_item_category_8cb5422c93e10210d14af1d97bba102b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 17:02:55</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Visitas">7d4a533293d50210d14af1d97bba1079</application>
+        <file_path/>
+        <instance_id>89da2321dbd6b5dcf697684e139619b1</instance_id>
+        <instance_name>dev203831</instance_name>
+        <name>sc_cat_item_category_8cb5422c93e10210d14af1d97bba102b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Cadastro de Visitante">d5df7d2493e10210d14af1d97bba1086</sc_cat_item><sc_category display_value="Departmental Services">95fc11615f1211001c9b2572f2b477c6</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-10 17:02:55</sys_created_on><sys_id>8cb5422c93e10210d14af1d97bba102b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Departmental Services.Cadastro de Visitante</sys_name><sys_package display_value="Visitas" source="x_1329985_vst">7d4a533293d50210d14af1d97bba1079</sys_package><sys_policy/><sys_scope display_value="Visitas">7d4a533293d50210d14af1d97bba1079</sys_scope><sys_update_name>sc_cat_item_category_8cb5422c93e10210d14af1d97bba102b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-10 17:02:55</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1065730312</payload_hash>
+        <record_name>Departmental Services.Cadastro de Visitante</record_name>
+        <reverted_from/>
+        <source>2b53a7ba93d50210d14af1d97bba10c9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 17:02:55</sys_created_on>
+        <sys_id>04b5422c93e10210d14af1d97bba1030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ec8f668360000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 17:02:55</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>84b5422ca6e10210a546fa8a30dd202f</update_guid>
+        <update_guid_history>84b5422ca6e10210a546fa8a30dd202f:1065730312</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Departmental Services.Cadastro de Visitante">1be5c62c93e10210d14af1d97bba10a3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 17:03:58</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>0a4a0c9bcd924b50b1a7b4d93fcbe290</sys_id>
+        <sys_metadata>8cb5422c93e10210d14af1d97bba102b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Departmental Services.Cadastro de Visitante</sys_name>
+        <sys_package display_value="Visitas" source="x_1329985_vst">7d4a533293d50210d14af1d97bba1079</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">7d4a533293d50210d14af1d97bba1079</sys_scope>
+        <sys_scope_delete display_value="">192c86bfc1e14f448ed44dbdc6f97464</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_8cb5422c93e10210d14af1d97bba102b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_8cb5422c93e10210d14af1d97bba102b">04b5422c93e10210d14af1d97bba1030</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 17:03:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

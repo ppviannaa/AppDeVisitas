@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Solicitação de Visitas">357b011493a50210d14af1d97bba1059</cat_item>
+        <cat_item display_value="Cadastro de Visitante">d5df7d2493e10210d14af1d97bba1086</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -21,7 +21,7 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>visitante</field>
+        <field>nome</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -30,34 +30,34 @@
         <instructions/>
         <layout>normal</layout>
         <list_table/>
-        <lookup_label>identificador,nome,e_mail</lookup_label>
+        <lookup_label/>
         <lookup_price/>
-        <lookup_table>x_1329985_vst_cadastro_visitantes</lookup_table>
+        <lookup_table/>
         <lookup_unique>false</lookup_unique>
-        <lookup_value>sys_id</lookup_value>
+        <lookup_value/>
         <macro/>
         <macroponent/>
         <mandatory>true</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>visitante</name>
-        <order>150</order>
+        <name>nome</name>
+        <order>100</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Coloque o Identificador do Visitante</question_text>
+        <question_text>Nome do Visitante</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table>x_1329985_vst_solicitacoes</record_producer_table>
-        <reference>x_1329985_vst_cadastro_visitantes</reference>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <record_producer_table>x_1329985_vst_cadastro_visitantes</record_producer_table>
+        <reference/>
+        <reference_qual>undefined</reference_qual>
+        <reference_qual_condition>undefined</reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -75,23 +75,23 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-09 18:15:33</sys_created_on>
-        <sys_id>bc8c055493a50210d14af1d97bba10fb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Coloque o Identificador do Visitante</sys_name>
+        <sys_created_on>2024-04-10 16:53:21</sys_created_on>
+        <sys_id>5543ca2893e10210d14af1d97bba10db</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Nome do Visitante</sys_name>
         <sys_package display_value="Visitas" source="x_1329985_vst">7d4a533293d50210d14af1d97bba1079</sys_package>
         <sys_policy/>
         <sys_scope display_value="Visitas">7d4a533293d50210d14af1d97bba1079</sys_scope>
-        <sys_update_name>item_option_new_bc8c055493a50210d14af1d97bba10fb</sys_update_name>
+        <sys_update_name>item_option_new_5543ca2893e10210d14af1d97bba10db</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-10 14:25:47</sys_updated_on>
+        <sys_updated_on>2024-04-10 16:53:24</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>18</type>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>advanced</use_reference_qualifier>
+        <use_reference_qualifier>simple</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
         <variable_set/>
@@ -103,22 +103,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=bc8c055493a50210d14af1d97bba10fb"/>
-    <fx_price action="delete_multiple" query="id=bc8c055493a50210d14af1d97bba10fb"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=5543ca2893e10210d14af1d97bba10db"/>
+    <fx_price action="delete_multiple" query="id=5543ca2893e10210d14af1d97bba10db"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>price_if_checked</field>
-        <id>bc8c055493a50210d14af1d97bba10fb</id>
+        <id>5543ca2893e10210d14af1d97bba10db</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-09 18:15:33</sys_created_on>
-        <sys_id>d2bc495493a50210d14af1d97bba1034</sys_id>
+        <sys_created_on>2024-04-10 16:53:22</sys_created_on>
+        <sys_id>8083026893e10210d14af1d97bba102e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-09 18:15:33</sys_updated_on>
+        <sys_updated_on>2024-04-10 16:53:22</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -126,16 +126,16 @@
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>rec_price_if_checked</field>
-        <id>bc8c055493a50210d14af1d97bba10fb</id>
+        <id>5543ca2893e10210d14af1d97bba10db</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-09 18:15:33</sys_created_on>
-        <sys_id>56bc495493a50210d14af1d97bba1033</sys_id>
+        <sys_created_on>2024-04-10 16:53:22</sys_created_on>
+        <sys_id>8c83026893e10210d14af1d97bba102c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-09 18:15:33</sys_updated_on>
+        <sys_updated_on>2024-04-10 16:53:22</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

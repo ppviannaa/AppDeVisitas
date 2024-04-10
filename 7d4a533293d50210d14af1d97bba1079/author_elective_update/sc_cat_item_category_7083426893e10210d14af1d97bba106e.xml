@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Cadastro de Visitante">d5df7d2493e10210d14af1d97bba1086</sc_cat_item>
+        <sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 16:53:25</sys_created_on>
+        <sys_id>7083426893e10210d14af1d97bba106e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office.Cadastro de Visitante</sys_name>
+        <sys_package display_value="Visitas" source="x_1329985_vst">7d4a533293d50210d14af1d97bba1079</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">7d4a533293d50210d14af1d97bba1079</sys_scope>
+        <sys_update_name>sc_cat_item_category_7083426893e10210d14af1d97bba106e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 16:53:25</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Visitas">7d4a533293d50210d14af1d97bba1079</application>
+        <file_path/>
+        <instance_id>89da2321dbd6b5dcf697684e139619b1</instance_id>
+        <instance_name>dev203831</instance_name>
+        <name>sc_cat_item_category_7083426893e10210d14af1d97bba106e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Cadastro de Visitante">d5df7d2493e10210d14af1d97bba1086</sc_cat_item><sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-10 16:53:25</sys_created_on><sys_id>7083426893e10210d14af1d97bba106e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Office.Cadastro de Visitante</sys_name><sys_package display_value="Visitas" source="x_1329985_vst">7d4a533293d50210d14af1d97bba1079</sys_package><sys_policy/><sys_scope display_value="Visitas">7d4a533293d50210d14af1d97bba1079</sys_scope><sys_update_name>sc_cat_item_category_7083426893e10210d14af1d97bba106e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-10 16:53:25</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1395246383</payload_hash>
+        <record_name>Office.Cadastro de Visitante</record_name>
+        <reverted_from/>
+        <source>2b53a7ba93d50210d14af1d97bba10c9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 16:53:25</sys_created_on>
+        <sys_id>3483426893e10210d14af1d97bba1072</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ec8edb6c90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 16:53:25</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>b48342682ee102100e400a1da16ea071</update_guid>
+        <update_guid_history>b48342682ee102100e400a1da16ea071:1395246383</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Office.Cadastro de Visitante">e3144e6893e10210d14af1d97bba106b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 16:56:04</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>092111aedaa549b98a763049f26a24c9</sys_id>
+        <sys_metadata>7083426893e10210d14af1d97bba106e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office.Cadastro de Visitante</sys_name>
+        <sys_package display_value="Visitas" source="x_1329985_vst">7d4a533293d50210d14af1d97bba1079</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">7d4a533293d50210d14af1d97bba1079</sys_scope>
+        <sys_scope_delete display_value="">192c86bfc1e14f448ed44dbdc6f97464</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_7083426893e10210d14af1d97bba106e</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_7083426893e10210d14af1d97bba106e">3483426893e10210d14af1d97bba1072</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 16:56:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
