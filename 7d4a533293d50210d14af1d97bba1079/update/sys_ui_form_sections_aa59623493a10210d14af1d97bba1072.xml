@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="aa59623493a10210d14af1d97bba1072" sys_domain="global" table="x_1329985_vst_solicitacoes" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6259623493a10210d14af1d97bba1078</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1329985_vst_solicitacoes" name="x_1329985_vst_solicitacoes" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">aa59623493a10210d14af1d97bba1072</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1329985_vst_solicitacoes" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">2259623493a10210d14af1d97bba1076</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2259a23493a10210d14af1d97bba1037</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1329985_vst_solicitacoes" name="x_1329985_vst_solicitacoes" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">aa59623493a10210d14af1d97bba1072</sys_ui_form>
+            <sys_ui_section caption="Responsável pela Visita" display_value="Responsável pela Visita" name="x_1329985_vst_solicitacoes" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">2259a23493a10210d14af1d97bba1036</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a59a23493a10210d14af1d97bba1039</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1329985_vst_solicitacoes" name="x_1329985_vst_solicitacoes" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">aa59623493a10210d14af1d97bba1072</sys_ui_form>
+            <sys_ui_section caption="Informações" display_value="Informações" name="x_1329985_vst_solicitacoes" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">6a59a23493a10210d14af1d97bba1038</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae59a23493a10210d14af1d97bba103b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1329985_vst_solicitacoes" name="x_1329985_vst_solicitacoes" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">aa59623493a10210d14af1d97bba1072</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1329985_vst_solicitacoes" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">ee59a23493a10210d14af1d97bba103a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1329985_vst_solicitacoes</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aa59623493a10210d14af1d97bba1072</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1329985_vst_solicitacoes</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Visitas" source="x_1329985_vst">7d4a533293d50210d14af1d97bba1079</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Visitas">7d4a533293d50210d14af1d97bba1079</sys_scope>
+            <sys_update_name>sys_ui_form_sections_aa59623493a10210d14af1d97bba1072</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:12</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Visitas 0" name="workspace-visitas-0">e349aef043a102107e4d3e8f4572a6d0</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

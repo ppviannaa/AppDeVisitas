@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="core_company" version="2" view="workspace-visitas-0">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Company - Workspace Visitas 0" name="core_company" related_list="NULL" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">fe59a23493a10210d14af1d97bba10cc</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>cmdb_model.manufacturer</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:13</sys_created_on>
+            <sys_id>f659a23493a10210d14af1d97bba10cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:13</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Company - Workspace Visitas 0" name="core_company" related_list="NULL" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">fe59a23493a10210d14af1d97bba10cc</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>pc_vendor_cat_item.vendor</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:13</sys_created_on>
+            <sys_id>fa59a23493a10210d14af1d97bba10cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:13</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Company - Workspace Visitas 0</calculated_name>
+            <filter/>
+            <name>core_company</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe59a23493a10210d14af1d97bba10cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Company - Workspace Visitas 0</sys_name>
+            <sys_package display_value="Visitas" source="x_1329985_vst">7d4a533293d50210d14af1d97bba1079</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Visitas">7d4a533293d50210d14af1d97bba1079</sys_scope>
+            <sys_update_name>sys_ui_related_core_company_workspace-visitas-0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:13</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Visitas 0" name="workspace-visitas-0">e349aef043a102107e4d3e8f4572a6d0</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="b259a23493a10210d14af1d97bba10af" sys_domain="global" table="cmn_location" version="3" view="workspace-visitas-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:13</sys_created_on>
+            <sys_id>f259a23493a10210d14af1d97bba10b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">b259a23493a10210d14af1d97bba10af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:13</sys_created_on>
+            <sys_id>7659a23493a10210d14af1d97bba10b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">b259a23493a10210d14af1d97bba10af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:13</sys_created_on>
+            <sys_id>f659a23493a10210d14af1d97bba10b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">b259a23493a10210d14af1d97bba10af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:13</sys_created_on>
+            <sys_id>7a59a23493a10210d14af1d97bba10b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">b259a23493a10210d14af1d97bba10af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zip</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:13</sys_created_on>
+            <sys_id>fa59a23493a10210d14af1d97bba10b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">b259a23493a10210d14af1d97bba10af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:13</sys_created_on>
+            <sys_id>7e59a23493a10210d14af1d97bba10b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">b259a23493a10210d14af1d97bba10af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_location_id</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:13</sys_created_on>
+            <sys_id>fe59a23493a10210d14af1d97bba10b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">b259a23493a10210d14af1d97bba10af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:13</sys_created_on>
+            <sys_id>7259a23493a10210d14af1d97bba10b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">b259a23493a10210d14af1d97bba10af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:13</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:13</sys_created_on>
+            <sys_id>f259a23493a10210d14af1d97bba10b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">b259a23493a10210d14af1d97bba10af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:13</sys_created_on>
+            <sys_id>7659a23493a10210d14af1d97bba10b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">b259a23493a10210d14af1d97bba10af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fax_phone</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:13</sys_created_on>
+            <sys_id>f659a23493a10210d14af1d97bba10b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">b259a23493a10210d14af1d97bba10af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:13</sys_created_on>
+            <sys_id>7a59a23493a10210d14af1d97bba10b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">b259a23493a10210d14af1d97bba10af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>latitude</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:13</sys_created_on>
+            <sys_id>fa59a23493a10210d14af1d97bba10b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">b259a23493a10210d14af1d97bba10af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>longitude</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:13</sys_created_on>
+            <sys_id>7e59a23493a10210d14af1d97bba10b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">b259a23493a10210d14af1d97bba10af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:13</sys_created_on>
+            <sys_id>fe59a23493a10210d14af1d97bba10b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">b259a23493a10210d14af1d97bba10af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:13</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>full_name</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:13</sys_created_on>
+            <sys_id>7259a23493a10210d14af1d97bba10b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="e349aef043a102107e4d3e8f4572a6d0">b259a23493a10210d14af1d97bba10af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>cmn_location</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 14:17:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b259a23493a10210d14af1d97bba10af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmn_location</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Visitas" source="x_1329985_vst">7d4a533293d50210d14af1d97bba1079</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Visitas">7d4a533293d50210d14af1d97bba1079</sys_scope>
+            <sys_update_name>sys_ui_section_b259a23493a10210d14af1d97bba10af</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 14:17:13</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Visitas 0" name="workspace-visitas-0">e349aef043a102107e4d3e8f4572a6d0</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
