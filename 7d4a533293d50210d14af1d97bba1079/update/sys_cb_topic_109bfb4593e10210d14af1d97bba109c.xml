@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{
+  "graph_api_version": "1.0.51",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "47f60d03f0bd4934b7de623205ea742d": {
+          "id": "47f60d03f0bd4934b7de623205ea742d",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "42c6bbbf55664758ae11ecd91dcde45d": {
+          "id": "42c6bbbf55664758ae11ecd91dcde45d",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "450904807e84465da3116703b71d751a": {
+          "id": "450904807e84465da3116703b71d751a",
+          "stepType": "TextPrompt",
+          "name": "Informe o Visitante",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Digite o e-mail"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "b371a85f0cd94144b94c9092215ad3ba",
+          "detailDescription": "",
+          "inputType": {
+            "format": "33513d135b1200101f254d3ba881c7d5",
+            "script": ""
+          }
+        },
+        "c4d28fa9e47a46ca88d390f7755f5d4d": {
+          "id": "c4d28fa9e47a46ca88d390f7755f5d4d",
+          "stepType": "LookupRecord",
+          "name": "Pesquisa Visitante",
+          "condition": {
+            "mode": "glide_query",
+            "value": "e_mail={{vaInputs.informe_o_visitante}}"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "de901805a1d8445eb2829642b5fa88ac"
+        },
+        "94a63e165196459fab5908a741832479": {
+          "id": "94a63e165196459fab5908a741832479",
+          "stepType": "RecordOutput",
+          "name": "Apresenta Visitante",
+          "variableId": "de901805a1d8445eb2829642b5fa88ac",
+          "cardTemplate": "General",
+          "cardFields": {},
+          "mode": "variable",
+          "tableName": "x_1329985_vst_cadastro_visitantes",
+          "fields": [
+            "nome",
+            "e_mail",
+            "identificador",
+            "telefone",
+            "empresa"
+          ],
+          "cardDefinition": {
+            "name": "Record",
+            "value": "General"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": ""
+          }
+        },
+        "a2ab5f8ad218429188a2a4403976cd77": {
+          "name": "Valida Pesquisa",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "As informações estão corretas?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "903f818d31074c8889bd455476eaa29a",
+          "detailDescription": "",
+          "id": "a2ab5f8ad218429188a2a4403976cd77",
+          "stepType": "ChoicePrompt",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "030a97cc16b44e059a0aeefa862d76c9": {
+          "id": "030a97cc16b44e059a0aeefa862d76c9",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "3c7a6aa0121a492d8cb7177ac4ef87d9": {
+          "id": "3c7a6aa0121a492d8cb7177ac4ef87d9",
+          "stepType": "ImplicitEnd"
+        },
+        "faa3d4ad7f84429f9787719ed334be9d": {
+          "name": "Localidades",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Estou buscando as localidades"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "12778d5977f8400f9df20427ed458661",
+          "detailDescription": "",
+          "id": "faa3d4ad7f84429f9787719ed334be9d",
+          "stepType": "ReferenceChoicePrompt",
+          "mode": "glide_record",
+          "script": "",
+          "metadataScript": "",
+          "cardData": {},
+          "noRecordsResponseMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.localidades}}",
+                      "displayValue": "Input Variables➛Localidades"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": "country=Brasil"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "a94a8a903c07470ca387231fac964426": {
+          "id": "a94a8a903c07470ca387231fac964426",
+          "stepType": "DateTimePrompt",
+          "name": "Data de Entrada",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Data de Entrada"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "b0f5cb9b89fc4f9fb868bdd64e6ac590",
+          "detailDescription": ""
+        },
+        "01e439013b8f45d4a5bbd024cc4c37fd": {
+          "id": "01e439013b8f45d4a5bbd024cc4c37fd",
+          "stepType": "DateTimePrompt",
+          "name": "Data de Saida",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Data Saída"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "730cf60506ef4759beea498793196161",
+          "detailDescription": ""
+        },
+        "ca53a7e0826f41fbbe0facbc55462359": {
+          "name": "Resonsavel pela visita",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Você será o responsável pela visita?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "8a8ceff75a6e4ce2b6024e7829cae2d8",
+          "detailDescription": "",
+          "id": "ca53a7e0826f41fbbe0facbc55462359",
+          "stepType": "ChoicePrompt",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "e1973b215cea42df9979ea6b8e5ed638": {
+          "id": "e1973b215cea42df9979ea6b8e5ed638",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "d8b62355231746eba1ade825570b04da": {
+          "id": "d8b62355231746eba1ade825570b04da",
+          "stepType": "CrudAction",
+          "name": "Cria Solicitacao",
+          "template": {
+            "query": {
+              "terms": [
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "visitante",
+                  "expression": "{{vaInputs.pesquisa_visitante}}"
+                },
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "assigned_to",
+                  "expression": "{{vaInputs.user}}"
+                },
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "u_start_date",
+                  "expression": "{{vaInputs.data_de_entrada}}"
+                },
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "u_end_date",
+                  "expression": "{{vaInputs.data_de_saida}}"
+                },
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "localidade",
+                  "expression": "{{vaInputs.localidades}}"
+                }
+              ]
+            },
+            "queryString": "visitante={{vaInputs.pesquisa_visitante}}^assigned_to={{vaInputs.user}}^u_start_date={{vaInputs.data_de_entrada}}^u_end_date={{vaInputs.data_de_saida}}^localidade={{vaInputs.localidades}}"
+          },
+          "mode": "create",
+          "record": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "attachments": [
+            {
+              "value": "",
+              "mode": "simple"
+            }
+          ],
+          "variableId": "51a9241914744765b70dfa7a4cde1f4c"
+        },
+        "516d9cfddd4a46f0b12963962f046f8b": {
+          "id": "516d9cfddd4a46f0b12963962f046f8b",
+          "stepType": "RecordOutput",
+          "name": "Apresenta  Nova Solicitacao",
+          "variableId": "99b1315ce25d45ffaaa5b76160a4933b",
+          "cardTemplate": "General",
+          "cardFields": {},
+          "mode": "variable",
+          "tableName": "x_1329985_vst_solicitacoes",
+          "fields": [
+            "number",
+            "visitante",
+            "u_start_date",
+            "u_end_date",
+            "localidade"
+          ],
+          "cardDefinition": {
+            "name": "Record",
+            "value": "General"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": ""
+          }
+        },
+        "91a9ebcf056540aba087ee17a9b30697": {
+          "id": "91a9ebcf056540aba087ee17a9b30697",
+          "stepType": "TextPrompt",
+          "name": "Novo Responsavel ",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Digite o e-mail do responsável pela visita "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "52105d8111654249a10c5a8de0d88391",
+          "detailDescription": "",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          }
+        },
+        "76ab9fb205264fbd88d56da87c20c494": {
+          "id": "76ab9fb205264fbd88d56da87c20c494",
+          "stepType": "LookupRecord",
+          "name": "Pesquisa Novo Responsavel",
+          "condition": {
+            "mode": "glide_query",
+            "value": "email={{vaInputs.novo_responsavel_}}^internal_integration_user=false^ORweb_service_access_only="
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "b7415936af5941a28ee2c90b212f4dd2"
+        },
+        "e1d73a150a034dc1889ff9257a7c540b": {
+          "id": "e1d73a150a034dc1889ff9257a7c540b",
+          "stepType": "RecordOutput",
+          "name": "Apresenta Novo Responsavel",
+          "variableId": "b7415936af5941a28ee2c90b212f4dd2",
+          "cardTemplate": "General",
+          "cardFields": {},
+          "mode": "variable",
+          "tableName": "sys_user",
+          "fields": [
+            "name",
+            "email",
+            "department"
+          ],
+          "cardDefinition": {
+            "name": "Record",
+            "value": "General"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": ""
+          }
+        },
+        "63bc580d1fba4be5a1ed982d02b26919": {
+          "name": "Valida Novo Responsavel ",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Está Certo?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "156b6d8bf094464caac3f547d8707957",
+          "detailDescription": "",
+          "id": "63bc580d1fba4be5a1ed982d02b26919",
+          "stepType": "ChoicePrompt",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "5c338aa027094fa5bd66d803d451342f": {
+          "id": "5c338aa027094fa5bd66d803d451342f",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "a9cac649b6db45339800af834d5b6683": {
+          "id": "a9cac649b6db45339800af834d5b6683",
+          "stepType": "CrudAction",
+          "name": "Cria Nova Solicitacao",
+          "template": {
+            "query": {
+              "terms": [
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "visitante",
+                  "expression": "{{vaInputs.pesquisa_visitante}}"
+                },
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "assigned_to",
+                  "expression": "{{vaInputs.pesquisa_novo_responsavel}}"
+                },
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "u_start_date",
+                  "expression": "{{vaInputs.data_de_entrada}}"
+                },
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "u_end_date",
+                  "expression": "{{vaInputs.data_de_saida}}"
+                },
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "localidade",
+                  "expression": "{{vaInputs.localidades}}"
+                }
+              ]
+            },
+            "queryString": "visitante={{vaInputs.pesquisa_visitante}}^assigned_to={{vaInputs.pesquisa_novo_responsavel}}^u_start_date={{vaInputs.data_de_entrada}}^u_end_date={{vaInputs.data_de_saida}}^localidade={{vaInputs.localidades}}"
+          },
+          "mode": "create",
+          "record": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "attachments": [
+            {
+              "value": "",
+              "mode": "simple"
+            }
+          ],
+          "variableId": "99b1315ce25d45ffaaa5b76160a4933b"
+        }
+      },
+      "edges": [
+        {
+          "id": "3851493dca7c4a0b874499c32b72a608",
+          "edgeType": "Edge",
+          "source": "47f60d03f0bd4934b7de623205ea742d",
+          "target": "450904807e84465da3116703b71d751a",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "78c9e4ac701a42248334a2056cd6364e",
+          "edgeType": "Edge",
+          "source": "450904807e84465da3116703b71d751a",
+          "target": "c4d28fa9e47a46ca88d390f7755f5d4d",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "a9c03471be224e6f89b3b1a048ce8c71",
+          "edgeType": "Edge",
+          "source": "c4d28fa9e47a46ca88d390f7755f5d4d",
+          "target": "94a63e165196459fab5908a741832479",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "eb8ff6d0aff549c2ae2e62659d3655a8",
+          "edgeType": "Edge",
+          "source": "94a63e165196459fab5908a741832479",
+          "target": "a2ab5f8ad218429188a2a4403976cd77",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c3cf05274a054336ae780a8f7e549739",
+          "edgeType": "Edge",
+          "source": "a2ab5f8ad218429188a2a4403976cd77",
+          "target": "030a97cc16b44e059a0aeefa862d76c9",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "3558dd9192ba42edb613c209e921cca9",
+          "edgeType": "Branch",
+          "source": "030a97cc16b44e059a0aeefa862d76c9",
+          "target": "42c6bbbf55664758ae11ecd91dcde45d",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.valida_pesquisa=2",
+            "mode": "query"
+          },
+          "label": "Sair"
+        },
+        {
+          "id": "23c22741ac5f45119f4f0bbcc5eb219d",
+          "edgeType": "Branch",
+          "source": "030a97cc16b44e059a0aeefa862d76c9",
+          "target": "450904807e84465da3116703b71d751a",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.valida_pesquisa=3",
+            "mode": "query"
+          },
+          "label": "Pesquisar Novamente "
+        },
+        {
+          "id": "f8cc6c73e8ae4d11a83c40260c1a66a0",
+          "edgeType": "Branch",
+          "source": "030a97cc16b44e059a0aeefa862d76c9",
+          "target": "faa3d4ad7f84429f9787719ed334be9d",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.valida_pesquisa=1",
+            "mode": "query"
+          },
+          "label": "Sim"
+        },
+        {
+          "id": "fb790fe888c04a50a699f124bfe5f460",
+          "edgeType": "Edge",
+          "source": "faa3d4ad7f84429f9787719ed334be9d",
+          "target": "a94a8a903c07470ca387231fac964426",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "51cf8b6b2ace46f59de0166d2d318056",
+          "edgeType": "Edge",
+          "source": "a94a8a903c07470ca387231fac964426",
+          "target": "01e439013b8f45d4a5bbd024cc4c37fd",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9239b75407dd4a559a9570a2981135d7",
+          "edgeType": "Edge",
+          "source": "01e439013b8f45d4a5bbd024cc4c37fd",
+          "target": "ca53a7e0826f41fbbe0facbc55462359",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "f89fdf0df78c4b7890bc031c52e0dbdf",
+          "edgeType": "Edge",
+          "source": "ca53a7e0826f41fbbe0facbc55462359",
+          "target": "e1973b215cea42df9979ea6b8e5ed638",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "82d1496ccee1445884f1ae8c621ad96f",
+          "edgeType": "Branch",
+          "source": "e1973b215cea42df9979ea6b8e5ed638",
+          "target": "d8b62355231746eba1ade825570b04da",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.resonsavel_pela_visita=1",
+            "mode": "query"
+          },
+          "label": "Sim"
+        },
+        {
+          "id": "241bc2923e1a4d4e92b4b4ea7bd9fc38",
+          "edgeType": "Edge",
+          "source": "d8b62355231746eba1ade825570b04da",
+          "target": "516d9cfddd4a46f0b12963962f046f8b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "75203423f63f4bda8ff18679e7f5430e",
+          "edgeType": "Edge",
+          "source": "516d9cfddd4a46f0b12963962f046f8b",
+          "target": "42c6bbbf55664758ae11ecd91dcde45d",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9ce36d50c67947e992565b7d2dfd60c0",
+          "edgeType": "Branch",
+          "source": "e1973b215cea42df9979ea6b8e5ed638",
+          "target": "91a9ebcf056540aba087ee17a9b30697",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.resonsavel_pela_visita=2",
+            "mode": "query"
+          },
+          "label": "Não"
+        },
+        {
+          "id": "50a6fd053e92448f8ad910366411f579",
+          "edgeType": "Edge",
+          "source": "91a9ebcf056540aba087ee17a9b30697",
+          "target": "76ab9fb205264fbd88d56da87c20c494",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "f7322ba07aeb451bb642557820a0e005",
+          "edgeType": "Edge",
+          "source": "76ab9fb205264fbd88d56da87c20c494",
+          "target": "e1d73a150a034dc1889ff9257a7c540b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "2c6c4dd003f44354bd3fcd7f4e6b927c",
+          "edgeType": "Edge",
+          "source": "e1d73a150a034dc1889ff9257a7c540b",
+          "target": "63bc580d1fba4be5a1ed982d02b26919",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "1a7f0efd1d35453b9a1cb84c23ffee5a",
+          "edgeType": "Edge",
+          "source": "63bc580d1fba4be5a1ed982d02b26919",
+          "target": "5c338aa027094fa5bd66d803d451342f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "df091c9b2a9441ed8b23164e20898a58",
+          "edgeType": "Branch",
+          "source": "5c338aa027094fa5bd66d803d451342f",
+          "target": "42c6bbbf55664758ae11ecd91dcde45d",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.valida_novo_responsavel_=2",
+            "mode": "query"
+          },
+          "label": "Sair "
+        },
+        {
+          "id": "96c0d611325849eab1bfbd58f5df92c7",
+          "edgeType": "Branch",
+          "source": "5c338aa027094fa5bd66d803d451342f",
+          "target": "91a9ebcf056540aba087ee17a9b30697",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.valida_novo_responsavel_=3",
+            "mode": "query"
+          },
+          "label": "Pesquisar Novamente "
+        },
+        {
+          "id": "dcb4027d7d8c44db9f87b47b7029bcf9",
+          "edgeType": "Branch",
+          "source": "5c338aa027094fa5bd66d803d451342f",
+          "target": "a9cac649b6db45339800af834d5b6683",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.valida_novo_responsavel_=1",
+            "mode": "query"
+          },
+          "label": "Sim"
+        },
+        {
+          "id": "a2f54f881bcb4515b90ac3d03a517bae",
+          "edgeType": "Edge",
+          "source": "a9cac649b6db45339800af834d5b6683",
+          "target": "3c7a6aa0121a492d8cb7177ac4ef87d9",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "b371a85f0cd94144b94c9092215ad3ba": {
+      "id": "b371a85f0cd94144b94c9092215ad3ba",
+      "name": "informe_o_visitante",
+      "label": "Informe O Visitante",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTcxMzE4NzM2Nzc4OSBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "450904807e84465da3116703b71d751a",
+      "isHidden": false
+    },
+    "de901805a1d8445eb2829642b5fa88ac": {
+      "id": "de901805a1d8445eb2829642b5fa88ac",
+      "name": "pesquisa_visitante",
+      "label": "Pesquisa Visitante",
+      "varType": "reference",
+      "table": "x_1329985_vst_cadastro_visitantes",
+      "category": "vaInputs",
+      "nodeId": "94a63e165196459fab5908a741832479",
+      "isHidden": false
+    },
+    "903f818d31074c8889bd455476eaa29a": {
+      "id": "903f818d31074c8889bd455476eaa29a",
+      "name": "valida_pesquisa",
+      "label": "Valida Pesquisa",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Sim",
+          "value": "1"
+        },
+        {
+          "label": "Sair",
+          "value": "2"
+        },
+        {
+          "label": "Pesq. Novamente",
+          "value": "3",
+          "checked": true,
+          "meta": {}
+        }
+      ],
+      "category": "vaInputs",
+      "nodeId": "a2ab5f8ad218429188a2a4403976cd77",
+      "isHidden": false
+    },
+    "12778d5977f8400f9df20427ed458661": {
+      "id": "12778d5977f8400f9df20427ed458661",
+      "name": "localidades",
+      "label": "Localidades",
+      "varType": "reference",
+      "table": "cmn_location",
+      "category": "vaInputs",
+      "nodeId": "faa3d4ad7f84429f9787719ed334be9d",
+      "isHidden": false
+    },
+    "b0f5cb9b89fc4f9fb868bdd64e6ac590": {
+      "id": "b0f5cb9b89fc4f9fb868bdd64e6ac590",
+      "name": "data_de_entrada",
+      "label": "Data De Entrada",
+      "varType": "date_time",
+      "secure": false,
+      "category": "vaInputs",
+      "mode": "date_time",
+      "nodeId": "a94a8a903c07470ca387231fac964426",
+      "isHidden": false
+    },
+    "730cf60506ef4759beea498793196161": {
+      "id": "730cf60506ef4759beea498793196161",
+      "name": "data_de_saida",
+      "label": "Data De Saida",
+      "varType": "date_time",
+      "secure": false,
+      "category": "vaInputs",
+      "mode": "date_time",
+      "nodeId": "01e439013b8f45d4a5bbd024cc4c37fd",
+      "isHidden": false
+    },
+    "8a8ceff75a6e4ce2b6024e7829cae2d8": {
+      "id": "8a8ceff75a6e4ce2b6024e7829cae2d8",
+      "name": "resonsavel_pela_visita",
+      "label": "Resonsavel Pela Visita",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Sim",
+          "value": "1"
+        },
+        {
+          "label": "Não",
+          "value": "2"
+        }
+      ],
+      "category": "vaInputs",
+      "nodeId": "ca53a7e0826f41fbbe0facbc55462359",
+      "isHidden": false
+    },
+    "51a9241914744765b70dfa7a4cde1f4c": {
+      "id": "51a9241914744765b70dfa7a4cde1f4c",
+      "name": "cria_solicitacao",
+      "label": "Cria Solicitacao",
+      "varType": "reference",
+      "table": "x_1329985_vst_solicitacoes",
+      "inactive": false,
+      "category": "vaInputs",
+      "nodeId": "d8b62355231746eba1ade825570b04da",
+      "isHidden": false
+    },
+    "52105d8111654249a10c5a8de0d88391": {
+      "id": "52105d8111654249a10c5a8de0d88391",
+      "name": "novo_responsavel_",
+      "label": "Novo Responsavel ",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTcxMzE4OTU2OTQ3NyBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "91a9ebcf056540aba087ee17a9b30697",
+      "isHidden": false
+    },
+    "b7415936af5941a28ee2c90b212f4dd2": {
+      "id": "b7415936af5941a28ee2c90b212f4dd2",
+      "name": "pesquisa_novo_responsavel",
+      "label": "Pesquisa Novo Responsavel",
+      "varType": "reference",
+      "table": "sys_user",
+      "category": "vaInputs",
+      "nodeId": "e1d73a150a034dc1889ff9257a7c540b",
+      "isHidden": false
+    },
+    "156b6d8bf094464caac3f547d8707957": {
+      "id": "156b6d8bf094464caac3f547d8707957",
+      "name": "valida_novo_responsavel_",
+      "label": "Valida Novo Responsavel ",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Sim",
+          "value": "1"
+        },
+        {
+          "label": "Sair",
+          "value": "2"
+        },
+        {
+          "label": "Pesq. Novamente",
+          "value": "3",
+          "checked": true,
+          "meta": {}
+        }
+      ],
+      "category": "vaInputs",
+      "nodeId": "63bc580d1fba4be5a1ed982d02b26919",
+      "isHidden": false
+    },
+    "99b1315ce25d45ffaaa5b76160a4933b": {
+      "id": "99b1315ce25d45ffaaa5b76160a4933b",
+      "name": "cria_nova_solicitacao",
+      "label": "Cria Nova Solicitacao",
+      "varType": "reference",
+      "table": "x_1329985_vst_solicitacoes",
+      "inactive": false,
+      "category": "vaInputs",
+      "nodeId": "a9cac649b6db45339800af834d5b6683",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <key_phrases>Solicitação de Visita,Visita,Visitas</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>Solicitação de Visita</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-12 14:54:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>109bfb4593e10210d14af1d97bba109c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Solicitação de Visita</sys_name>
+        <sys_package display_value="Visitas" source="x_1329985_vst">7d4a533293d50210d14af1d97bba1079</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">7d4a533293d50210d14af1d97bba1079</sys_scope>
+        <sys_update_name>sys_cb_topic_109bfb4593e10210d14af1d97bba109c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-16 13:03:36</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+</record_update>
